@@ -13,6 +13,14 @@ class AlienInvasion:
 
     def __init__(self):
         pygame.init()
+
+        # Start alien invasion in an inactive state
+        self.game_active = False
+        
+
+
+
+
         self.clock=pygame.time.Clock()
         self.settings = Settings()
 
